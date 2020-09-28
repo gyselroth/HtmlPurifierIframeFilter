@@ -1,6 +1,6 @@
 {
     "name": "gyselroth/html-purifier-filters",
-    "description": "PHP helpers",
+    "description": "HtmlPurifier filters",
     "keywords": ["html", "purifier", "HtmlPurifier", "filter"],
     "homepage": "https://gyselroth.com",
     "type": "library",
@@ -24,8 +24,5 @@
     "config": {
         "secure-http": false,
         "process-timeout" : 0
-    },
-    "scripts": {
-        "test": "phpunit tests/"
     }
 }
