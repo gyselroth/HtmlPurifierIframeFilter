@@ -1,0 +1,31 @@
+{
+    "name": "gyselroth/html-purifier-filters",
+    "description": "PHP helpers",
+    "keywords": ["html", "purifier", "HtmlPurifier", "filter"],
+    "homepage": "https://gyselroth.com",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "gyselroth",
+            "email": "mail@gyselroth.com",
+            "homepage": "http://www.gyselroth.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ezyang/htmlpurifier": "^4.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gyselroth\\htmlPurifierFilters\\": "src/Gyselroth/htmlPurifierFilters/"
+        }
+    },
+    "config": {
+        "secure-http": false,
+        "process-timeout" : 0
+    },
+    "scripts": {
+        "test": "phpunit tests/"
+    }
+}
