@@ -16,8 +16,6 @@ HtmlPurifier filters
 Installation
 ------------
 
-### For use within your application
-
 ```sh
 composer require gyselroth/html-purifier-filters
 ```
